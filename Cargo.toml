@@ -1,0 +1,15 @@
+[package]
+name = "rust_chat_server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.20"
+tokio = { version = "1", features = ["full"] }
+tokio-tungstenite = "0.15"
+futures = "0.3"
+env_logger = "0.9"
+tokio-test = "0.4.3"
+url = "2.5.0"
